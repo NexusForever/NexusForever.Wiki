@@ -36,3 +36,6 @@ It is recommended that you have a read through this page before asking any quest
 * **Can NexusForever be used with other database providers such as SQL Server?**\
   ****Currently no, we only support MySQL and by extension MariaDB.\
   NexusForever used Entity Framework so it would be possible to add support for other database providers further down the line.
+* **What's the difference between the master and develop branch?**\
+  Master is the latest stable build of NexusForever, features have been around for a while and have some form of testing, this branch is recommended for those wanting to host a NexusForever server or have a local installation.\
+  Develop is the latest build of NexusForever with the latest features but may be unstable with little to no testing, this branch is recommended for developers.

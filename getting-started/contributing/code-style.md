@@ -4,6 +4,8 @@ To keep the code base clean and uniform this document should be referenced if yo
 
 Windows line endings should be used at all times and files should all have an empty new line at the bottom.
 
+**British English must be used, no arguments will be had over American English word spelling.**
+
 ### Name Style
 
 | Entity               | Style                                         |

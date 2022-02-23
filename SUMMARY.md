@@ -10,9 +10,11 @@
   * [Code Style](getting-started/contributing/code-style.md)
   * [Database Style](getting-started/contributing/database-style.md)
   * [Database Migrations](getting-started/contributing/database-migrations.md)
+  * [Bug Submission](getting-started/contributing/bug-submission.md)
 
 ## Installation
 
+* [Client Connection Guide](installation/client-connection-guide.md)
 * [Server Install Guide (Windows)](installation/server-install-guide-windows.md)
 * [Server Install Guide (Linux)](installation/server-install-guide-linux.md)
 

@@ -1,7 +1,10 @@
 # Server Install Guide (Windows)
 
-This guide will help you setup and install the NexusForever server on Windows.\
-Please note this guide is intended for advanced users and makes assumptions that you have knowledge on the technologies mentioned.
+{% hint style="info" %}
+This guide is intended for advanced users and it makes assumptions that you have knowledge on the technologies mentioned.
+{% endhint %}
+
+This guide will help you setup and install the NexusForever server on Windows.
 
 ### Prerequisites
 
