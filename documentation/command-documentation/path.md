@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage paths for a character.
 ---
 
-# Achievement
+# Path
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage paths for a character.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Path = 70
 ```
 
-## AchievementUpdate
+## PathUnlock
 
 ### Summary
 
-Update achievement criteria for player.
+Unlock a path for character.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!path unlock
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c path unlock
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.PathUnlock = 71
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>Path</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Path id to unlock.
 
 #### Optional
 
@@ -72,53 +72,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectId</summary>
-
-#### Summary
-
-Object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## PathActivate
 
 ### Summary
 
-Grant achievement to player.
+Activate a path for character.
 
 #### Invoke
 
@@ -129,7 +87,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!path activate
 ```
 {% endtab %}
 
@@ -137,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c path activate
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +105,70 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.PathActivate = 72
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>Path</summary>
 
 #### Summary
 
-Achievement id to grant.
+Path id to activate.
+
+#### Optional
+
+No
+
+</details>
+
+## PathXP
+
+### Summary
+
+Add XP to current path for character.
+
+#### Invoke
+
+Invoke this command with one of the two following methods:
+
+{% tabs %}
+{% tab title="Method 1" %}
+Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+
+```
+!path xp
+```
+{% endtab %}
+
+{% tab title="Method 2" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
+/c path xp
+```
+{% endtab %}
+{% endtabs %}
+
+#### RBAC
+
+Role-based access control required to access this command.
+
+```
+Permission.PathXP = 73
+```
+
+### Parameters
+
+<details>
+
+<summary>Xp</summary>
+
+#### Summary
+
+XP amount to add to currency path.
 
 #### Optional
 

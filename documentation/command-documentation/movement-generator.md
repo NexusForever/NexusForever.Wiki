@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to control entity generator movement.
 ---
 
-# Achievement
+# MovementGenerator
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to control entity generator movement.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.MovementGenerator = 67
 ```
 
-## AchievementUpdate
+## MovementGeneratorDirectHandler
 
 ### Summary
 
-Update achievement criteria for player.
+Launch spline for target entity with nodes defined by the direct movement generator.
 
 #### Invoke
 
@@ -35,7 +35,8 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!movement generator direct
+!move generator direct
 ```
 {% endtab %}
 
@@ -43,7 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c movement generator direct
+/c move generator direct
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,72 +55,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.MovementGeneratorDirect = 68
 ```
 
 ### Parameters
 
-<details>
+This command has no parameters.
 
-<summary>Type</summary>
-
-#### Summary
-
-Achievement criteria type to update.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectId</summary>
-
-#### Summary
-
-Object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## MovementGeneratorRandomHandler
 
 ### Summary
 
-Grant achievement to player.
+Launch spline for target entity with nodes defined by the random movement generator.
 
 #### Invoke
 
@@ -129,7 +77,8 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!movement generator random
+!move generator random
 ```
 {% endtab %}
 
@@ -137,7 +86,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c movement generator random
+/c move generator random
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,22 +97,10 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.MovementGeneratorRandom = 69
 ```
 
 ### Parameters
 
-<details>
-
-<summary>AchievementId</summary>
-
-#### Summary
-
-Achievement id to grant.
-
-#### Optional
-
-No
-
-</details>
+This command has no parameters.
 

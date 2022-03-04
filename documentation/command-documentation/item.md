@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage items for a character.
 ---
 
-# Achievement
+# Item
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage items for a character.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Item = 59
 ```
 
-## AchievementUpdate
+## ItemAdd
 
 ### Summary
 
-Update achievement criteria for player.
+Add an item to inventory, optionally specifying quantity and charges.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!item add
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c item add
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.ItemAdd = 6
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>ItemId</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Item id to create.
 
 #### Optional
 
@@ -74,11 +74,11 @@ No
 
 <details>
 
-<summary>ObjectId</summary>
+<summary>Quantity</summary>
 
 #### Summary
 
-Object id to match against.
+Quantity of item to create.
 
 #### Optional
 
@@ -88,11 +88,11 @@ No
 
 <details>
 
-<summary>ObjectIdAlt</summary>
+<summary>Charges</summary>
 
 #### Summary
 
-Alternative object id to match against.
+Amount of charges to add to the item.
 
 #### Optional
 
@@ -100,25 +100,11 @@ No
 
 </details>
 
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## ItemLookup
 
 ### Summary
 
-Grant achievement to player.
+Lookup an item by partial name.
 
 #### Invoke
 
@@ -129,7 +115,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!item lookup
 ```
 {% endtab %}
 
@@ -137,7 +123,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c item lookup
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +133,32 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.ItemLookup = 92
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>Name</summary>
 
 #### Summary
 
-Achievement id to grant.
+Item name to lookup.
+
+#### Optional
+
+No
+
+</details>
+
+<details>
+
+<summary>MaxResults</summary>
+
+#### Summary
+
+Maximum amount of results to return.
 
 #### Optional
 

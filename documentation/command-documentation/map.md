@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage maps.
 ---
 
-# Achievement
+# Map
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage maps.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Map = 103
 ```
 
-## AchievementUpdate
+## MapUnload
 
 ### Summary
 
-Update achievement criteria for player.
+Unload current map instance.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!map unload
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c map unload
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,72 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.MapUnload = 104
 ```
 
 ### Parameters
 
-<details>
+This command has no parameters.
 
-<summary>Type</summary>
-
-#### Summary
-
-Achievement criteria type to update.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectId</summary>
-
-#### Summary
-
-Object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## MapPlayerRemove
 
 ### Summary
 
-Grant achievement to player.
+Remove player from current map instance.
 
 #### Invoke
 
@@ -129,7 +75,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!map remove
 ```
 {% endtab %}
 
@@ -137,7 +83,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c map remove
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,22 +93,62 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.MapPlayerRemove = 105
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>RemovalReason</summary>
 
 #### Summary
 
-Achievement id to grant.
+Removal reason.
 
 #### Optional
 
 No
 
 </details>
+
+## MapPlayerRemoveCancel
+
+### Summary
+
+Cancel removal of player from current map instance.
+
+#### Invoke
+
+Invoke this command with one of the two following methods:
+
+{% tabs %}
+{% tab title="Method 1" %}
+Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+
+```
+!map cancel
+```
+{% endtab %}
+
+{% tab title="Method 2" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
+/c map cancel
+```
+{% endtab %}
+{% endtabs %}
+
+#### RBAC
+
+Role-based access control required to access this command.
+
+```
+Permission.MapPlayerRemoveCancel = 106
+```
+
+### Parameters
+
+This command has no parameters.
 

@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage spells.
 ---
 
-# Achievement
+# Spell
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage spells.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Spell = 83
 ```
 
-## AchievementUpdate
+## SpellAdd
 
 ### Summary
 
-Update achievement criteria for player.
+Add a base spell to character, optionally supplying the tier.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!spell add
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c spell add
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.SpellAdd = 84
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>Spell4BaseId</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Spell base id to add to character.
 
 #### Optional
 
@@ -74,11 +74,11 @@ No
 
 <details>
 
-<summary>ObjectId</summary>
+<summary>Tier</summary>
 
 #### Summary
 
-Object id to match against.
+Tier of the base spell to add to character.
 
 #### Optional
 
@@ -86,39 +86,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## SpellCast
 
 ### Summary
 
-Grant achievement to player.
+Cast a base spell for target, optionally supplying the tier.
 
 #### Invoke
 
@@ -129,7 +101,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!spell cast
 ```
 {% endtab %}
 
@@ -137,7 +109,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c spell cast
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +119,84 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.SpellCast = 85
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>Spell4BaseId</summary>
 
 #### Summary
 
-Achievement id to grant.
+Spell base id to cast from target.
+
+#### Optional
+
+No
+
+</details>
+
+<details>
+
+<summary>Tier</summary>
+
+#### Summary
+
+Tier of the base spell to cast from target.
+
+#### Optional
+
+No
+
+</details>
+
+## SpellResetCooldown
+
+### Summary
+
+Reset a single spell cooldown for character, if no spell if supplied all cooldowns will be reset
+
+#### Invoke
+
+Invoke this command with one of the two following methods:
+
+{% tabs %}
+{% tab title="Method 1" %}
+Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+
+```
+!spell resetcooldown
+```
+{% endtab %}
+
+{% tab title="Method 2" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
+/c spell resetcooldown
+```
+{% endtab %}
+{% endtabs %}
+
+#### RBAC
+
+Role-based access control required to access this command.
+
+```
+Permission.SpellResetCooldown = 86
+```
+
+### Parameters
+
+<details>
+
+<summary>Spell4Id</summary>
+
+#### Summary
+
+Spell id to reset cooldown for character.
 
 #### Optional
 

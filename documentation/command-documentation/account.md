@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to modify game accounts.
 ---
 
-# Achievement
+# Account
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to modify game accounts.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Account = 1
 ```
 
-## AchievementUpdate
+## AccountCreate
 
 ### Summary
 
-Update achievement criteria for player.
+Create a new account.
 
 #### Invoke
 
@@ -35,7 +35,8 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!acc create
+!account create
 ```
 {% endtab %}
 
@@ -43,7 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c acc create
+/c account create
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +55,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.AccountCreate = 2
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>Email</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Email address for the new account
 
 #### Optional
 
@@ -74,11 +76,11 @@ No
 
 <details>
 
-<summary>ObjectId</summary>
+<summary>Password</summary>
 
 #### Summary
 
-Object id to match against.
+Password for the new account
 
 #### Optional
 
@@ -86,39 +88,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## AccountDelete
 
 ### Summary
 
-Grant achievement to player.
+Delete an account.
 
 #### Invoke
 
@@ -129,7 +103,8 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!acc delete
+!account delete
 ```
 {% endtab %}
 
@@ -137,7 +112,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c acc delete
+/c account delete
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +123,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.AccountDelete = 3
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>Email</summary>
 
 #### Summary
 
-Achievement id to grant.
+Email address of the account to delete
 
 #### Optional
 

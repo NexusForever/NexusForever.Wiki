@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage a guilds.
 ---
 
-# Achievement
+# Guild
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage a guilds.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Guild = 100
 ```
 
-## AchievementUpdate
+## GuildRegister
 
 ### Summary
 
-Update achievement criteria for player.
+Register a new guild.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!guild register
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c guild register
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,7 +53,7 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.GuildRegister = 101
 ```
 
 ### Parameters
@@ -64,7 +64,7 @@ Permission.AchievementUpdate = 17
 
 #### Summary
 
-Achievement criteria type to update.
+Guild type to create.
 
 #### Optional
 
@@ -74,11 +74,11 @@ No
 
 <details>
 
-<summary>ObjectId</summary>
+<summary>Name</summary>
 
 #### Summary
 
-Object id to match against.
+Name of newly created guild.
 
 #### Optional
 
@@ -88,37 +88,51 @@ No
 
 <details>
 
-<summary>ObjectIdAlt</summary>
+<summary>LeaderRank</summary>
 
 #### Summary
 
-Alternative object id to match against.
+
 
 #### Optional
 
-No
+Yes
 
 </details>
 
 <details>
 
-<summary>Count</summary>
+<summary>CouncilRank</summary>
 
 #### Summary
 
-Update count for matched criteria.
+
 
 #### Optional
 
-No
+Yes
 
 </details>
 
-## AchievementGrant
+<details>
+
+<summary>MemberRank</summary>
+
+#### Summary
+
+
+
+#### Optional
+
+Yes
+
+</details>
+
+## GuildJoin
 
 ### Summary
 
-Grant achievement to player.
+Join an existing guild.
 
 #### Invoke
 
@@ -129,7 +143,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!guild join
 ```
 {% endtab %}
 
@@ -137,7 +151,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c guild join
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +161,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.GuildJoin = 102
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>Name</summary>
 
 #### Summary
 
-Achievement id to grant.
+Name of guild to join.
 
 #### Optional
 

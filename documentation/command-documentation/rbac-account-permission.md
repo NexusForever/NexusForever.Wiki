@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage RBAC permissions for an account.
 ---
 
-# Achievement
+# RBACAccountPermission
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage RBAC permissions for an account.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.RBACAccountPermission = 9
 ```
 
-## AchievementUpdate
+## RBACAccountPermissionGrant
 
 ### Summary
 
-Update achievement criteria for player.
+Grant permission to account
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!rbac account permission grant
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c rbac account permission grant
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.RBACAccountPermissionGrant = 10
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>Permission</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Permission to grant
 
 #### Optional
 
@@ -72,53 +72,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectId</summary>
-
-#### Summary
-
-Object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## RBACAccountPermissionRevoke
 
 ### Summary
 
-Grant achievement to player.
+
 
 #### Invoke
 
@@ -129,7 +87,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!rbac account permission revoke
 ```
 {% endtab %}
 
@@ -137,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c rbac account permission revoke
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +105,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.RBACAccountPermissionRevoke = 11
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>Permission</summary>
 
 #### Summary
 
-Achievement id to grant.
+Permission to revoke
 
 #### Optional
 

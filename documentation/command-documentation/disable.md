@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage entity disables.
 ---
 
-# Achievement
+# Disable
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage entity disables.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Disable = 30
 ```
 
-## AchievementUpdate
+## DisableInfo
 
 ### Summary
 
-Update achievement criteria for player.
+Return information on the supplied disable and object id.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!disable info
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c disable info
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.DisableInfo = 31
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>DisableType</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Disabled entity type.
 
 #### Optional
 
@@ -78,7 +78,7 @@ No
 
 #### Summary
 
-Object id to match against.
+Object id for the disabled entity type.
 
 #### Optional
 
@@ -86,39 +86,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## DisableReload
 
 ### Summary
 
-Grant achievement to player.
+Reload all entity disables from the database.
 
 #### Invoke
 
@@ -129,7 +101,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!disable reload
 ```
 {% endtab %}
 
@@ -137,7 +109,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c disable reload
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,22 +119,10 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.DisableReload = 32
 ```
 
 ### Parameters
 
-<details>
-
-<summary>AchievementId</summary>
-
-#### Summary
-
-Achievement id to grant.
-
-#### Optional
-
-No
-
-</details>
+This command has no parameters.
 

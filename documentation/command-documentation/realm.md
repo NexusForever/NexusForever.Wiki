@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to manage the realm.
 ---
 
-# Achievement
+# Realm
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to manage the realm.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Realm = 82
 ```
 
-## AchievementUpdate
+## RealmMotd
 
 ### Summary
 
-Update achievement criteria for player.
+Set the realm's message of the day and announce to the realm.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!realm motd
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c realm motd
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.RealmMOTD = 94
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>Message</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+New message of the day for the realm.
 
 #### Optional
 
@@ -72,53 +72,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectId</summary>
-
-#### Summary
-
-Object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## RealmMax
 
 ### Summary
 
-Grant achievement to player.
+Set the maximum players allowed to connect.
 
 #### Invoke
 
@@ -129,7 +87,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!realm max
 ```
 {% endtab %}
 
@@ -137,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c realm max
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +105,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.RealmMaxPlayers = 111
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>MaxPlayers</summary>
 
 #### Summary
 
-Achievement id to grant.
+Max players allowed.
 
 #### Optional
 

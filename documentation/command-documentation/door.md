@@ -1,8 +1,8 @@
 ---
-description: A collection of commands to manage player achievements.
+description: A collection of commands to interact with door entities.
 ---
 
-# Achievement
+# Door
 
 {% hint style="warning" %}
 This page is automatically generated from the NexusForever source code!
@@ -10,21 +10,21 @@ This page is automatically generated from the NexusForever source code!
 
 ### Summary
 
-A collection of commands to manage player achievements.
+A collection of commands to interact with door entities.
 
 #### RBAC
 
 Role-based access control required to access this command category.
 
 ```
-Permission.Achievement = 15
+Permission.Door = 33
 ```
 
-## AchievementUpdate
+## DoorOpen
 
 ### Summary
 
-Update achievement criteria for player.
+Open all doors within a specified range.
 
 #### Invoke
 
@@ -35,7 +35,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement update
+!door open
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c door open
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,18 +53,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementUpdate = 17
+Permission.DoorOpen = 34
 ```
 
 ### Parameters
 
 <details>
 
-<summary>Type</summary>
+<summary>SearchRange</summary>
 
 #### Summary
 
-Achievement criteria type to update.
+Distance to search for doors to open.
 
 #### Optional
 
@@ -72,53 +72,11 @@ No
 
 </details>
 
-<details>
-
-<summary>ObjectId</summary>
-
-#### Summary
-
-Object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>ObjectIdAlt</summary>
-
-#### Summary
-
-Alternative object id to match against.
-
-#### Optional
-
-No
-
-</details>
-
-<details>
-
-<summary>Count</summary>
-
-#### Summary
-
-Update count for matched criteria.
-
-#### Optional
-
-No
-
-</details>
-
-## AchievementGrant
+## DoorClose
 
 ### Summary
 
-Grant achievement to player.
+Close all doors within a specified range.
 
 #### Invoke
 
@@ -129,7 +87,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
 
 ```
-!achievement grant
+!door close
 ```
 {% endtab %}
 
@@ -137,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c door close
 ```
 {% endtab %}
 {% endtabs %}
@@ -147,18 +105,18 @@ Invoke the command with the following syntax in the WildStar game chat.
 Role-based access control required to access this command.
 
 ```
-Permission.AchievementGrant = 16
+Permission.DoorClose = 35
 ```
 
 ### Parameters
 
 <details>
 
-<summary>AchievementId</summary>
+<summary>SearchRange</summary>
 
 #### Summary
 
-Achievement id to grant.
+Distance to search for doors to close.
 
 #### Optional
 
