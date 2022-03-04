@@ -32,10 +32,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!generic unlock
+!generic unlock [genericUnlockEntryId]
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c generic unlock
+/c generic unlock [genericUnlockEntryId]
 ```
 {% endtab %}
 {% endtabs %}
@@ -84,10 +84,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!generic unlockall
+!generic unlockall [genericUnlockType]
 ```
 {% endtab %}
 
@@ -95,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c generic unlockall
+/c generic unlockall [genericUnlockType]
 ```
 {% endtab %}
 {% endtabs %}
@@ -136,7 +136,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !generic list
@@ -147,7 +147,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c generic list
+/c generic list 
 ```
 {% endtab %}
 {% endtabs %}

@@ -32,10 +32,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!rbac account role grant
+!rbac account role grant [role]
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c rbac account role grant
+/c rbac account role grant [role]
 ```
 {% endtab %}
 {% endtabs %}
@@ -84,10 +84,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!rbac account role revoke
+!rbac account role revoke [role]
 ```
 {% endtab %}
 
@@ -95,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c rbac account role revoke
+/c rbac account role revoke [role]
 ```
 {% endtab %}
 {% endtabs %}

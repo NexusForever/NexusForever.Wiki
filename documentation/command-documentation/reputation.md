@@ -32,11 +32,11 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!rep update
-!reputation update
+!rep update [factionId] [value]
+!reputation update [factionId] [value]
 ```
 {% endtab %}
 
@@ -44,8 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c rep update
-/c reputation update
+/c rep update [factionId] [value]
+/c reputation update [factionId] [value]
 ```
 {% endtab %}
 {% endtabs %}

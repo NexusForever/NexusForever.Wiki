@@ -32,10 +32,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!path unlock
+!path unlock [path]
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c path unlock
+/c path unlock [path]
 ```
 {% endtab %}
 {% endtabs %}
@@ -84,10 +84,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!path activate
+!path activate [path]
 ```
 {% endtab %}
 
@@ -95,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c path activate
+/c path activate [path]
 ```
 {% endtab %}
 {% endtabs %}
@@ -136,10 +136,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!path xp
+!path xp [xp]
 ```
 {% endtab %}
 
@@ -147,7 +147,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c path xp
+/c path xp [xp]
 ```
 {% endtab %}
 {% endtabs %}

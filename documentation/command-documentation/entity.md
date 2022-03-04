@@ -32,7 +32,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !entity i
@@ -44,8 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c entity i
-/c entity info
+/c entity i 
+/c entity info 
 ```
 {% endtab %}
 {% endtabs %}
@@ -74,7 +74,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !entity p
@@ -86,8 +86,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c entity p
-/c entity properties
+/c entity p 
+/c entity properties 
 ```
 {% endtab %}
 {% endtabs %}

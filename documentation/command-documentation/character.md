@@ -32,10 +32,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!character xp
+!character xp [amount]
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c character xp
+/c character xp [amount]
 ```
 {% endtab %}
 {% endtabs %}
@@ -84,10 +84,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!character level
+!character level [level]
 ```
 {% endtab %}
 
@@ -95,7 +95,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c character level
+/c character level [level]
 ```
 {% endtab %}
 {% endtabs %}
@@ -136,7 +136,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !character save
@@ -147,7 +147,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c character save
+/c character save 
 ```
 {% endtab %}
 {% endtabs %}

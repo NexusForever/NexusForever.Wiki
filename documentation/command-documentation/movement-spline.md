@@ -32,7 +32,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !movement spline add
@@ -44,8 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c movement spline add
-/c move spline add
+/c movement spline add 
+/c move spline add 
 ```
 {% endtab %}
 {% endtabs %}
@@ -74,7 +74,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !movement spline clear
@@ -86,8 +86,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c movement spline clear
-/c move spline clear
+/c movement spline clear 
+/c move spline clear 
 ```
 {% endtab %}
 {% endtabs %}
@@ -116,11 +116,11 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!movement spline launch
-!move spline launch
+!movement spline launch [mode] [speed]
+!move spline launch [mode] [speed]
 ```
 {% endtab %}
 
@@ -128,8 +128,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c movement spline launch
-/c move spline launch
+/c movement spline launch [mode] [speed]
+/c move spline launch [mode] [speed]
 ```
 {% endtab %}
 {% endtabs %}

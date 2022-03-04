@@ -32,12 +32,12 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!teleport coordinates
-!port coordinates
-!tele coordinates
+!teleport coordinates [x] [y] [z] [worldId]
+!port coordinates [x] [y] [z] [worldId]
+!tele coordinates [x] [y] [z] [worldId]
 ```
 {% endtab %}
 
@@ -45,9 +45,9 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c teleport coordinates
-/c port coordinates
-/c tele coordinates
+/c teleport coordinates [x] [y] [z] [worldId]
+/c port coordinates [x] [y] [z] [worldId]
+/c tele coordinates [x] [y] [z] [worldId]
 ```
 {% endtab %}
 {% endtabs %}
@@ -130,12 +130,12 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!teleport location
-!port location
-!tele location
+!teleport location [worldLocation2Id]
+!port location [worldLocation2Id]
+!tele location [worldLocation2Id]
 ```
 {% endtab %}
 
@@ -143,9 +143,9 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c teleport location
-/c port location
-/c tele location
+/c teleport location [worldLocation2Id]
+/c port location [worldLocation2Id]
+/c tele location [worldLocation2Id]
 ```
 {% endtab %}
 {% endtabs %}
@@ -186,12 +186,12 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!teleport name
-!port name
-!tele name
+!teleport name [name]
+!port name [name]
+!tele name [name]
 ```
 {% endtab %}
 
@@ -199,9 +199,9 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c teleport name
-/c port name
-/c tele name
+/c teleport name [name]
+/c port name [name]
+/c tele name [name]
 ```
 {% endtab %}
 {% endtabs %}

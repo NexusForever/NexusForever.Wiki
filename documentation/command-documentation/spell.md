@@ -32,10 +32,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!spell add
+!spell add [spell4BaseId] [tier]
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c spell add
+/c spell add [spell4BaseId] [tier]
 ```
 {% endtab %}
 {% endtabs %}
@@ -98,10 +98,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!spell cast
+!spell cast [spell4BaseId] [tier]
 ```
 {% endtab %}
 
@@ -109,7 +109,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c spell cast
+/c spell cast [spell4BaseId] [tier]
 ```
 {% endtab %}
 {% endtabs %}
@@ -164,10 +164,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!spell resetcooldown
+!spell resetcooldown [spell4Id]
 ```
 {% endtab %}
 
@@ -175,7 +175,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c spell resetcooldown
+/c spell resetcooldown [spell4Id]
 ```
 {% endtab %}
 {% endtabs %}

@@ -32,11 +32,11 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!acc create
-!account create
+!acc create [email] [password]
+!account create [email] [password]
 ```
 {% endtab %}
 
@@ -44,8 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c acc create
-/c account create
+/c acc create [email] [password]
+/c account create [email] [password]
 ```
 {% endtab %}
 {% endtabs %}
@@ -100,11 +100,11 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!acc delete
-!account delete
+!acc delete [email]
+!account delete [email]
 ```
 {% endtab %}
 
@@ -112,8 +112,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c acc delete
-/c account delete
+/c acc delete [email]
+/c account delete [email]
 ```
 {% endtab %}
 {% endtabs %}

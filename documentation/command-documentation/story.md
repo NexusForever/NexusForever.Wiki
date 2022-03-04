@@ -32,11 +32,11 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!story panel
-!story p
+!story panel [storyPanelId]
+!story p [storyPanelId]
 ```
 {% endtab %}
 
@@ -44,8 +44,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c story panel
-/c story p
+/c story panel [storyPanelId]
+/c story p [storyPanelId]
 ```
 {% endtab %}
 {% endtabs %}
@@ -86,11 +86,11 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!story communicator
-!story c
+!story communicator [textId] [creatureId] [duration] [storyPanelType] [windowType] [soundEvent] [priority]
+!story c [textId] [creatureId] [duration] [storyPanelType] [windowType] [soundEvent] [priority]
 ```
 {% endtab %}
 
@@ -98,8 +98,8 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c story communicator
-/c story c
+/c story communicator [textId] [creatureId] [duration] [storyPanelType] [windowType] [soundEvent] [priority]
+/c story c [textId] [creatureId] [duration] [storyPanelType] [windowType] [soundEvent] [priority]
 ```
 {% endtab %}
 {% endtabs %}

@@ -32,7 +32,7 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
 !quest list
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c quest list
+/c quest list 
 ```
 {% endtab %}
 {% endtabs %}
@@ -72,10 +72,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!quest add
+!quest add [questId]
 ```
 {% endtab %}
 
@@ -83,7 +83,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c quest add
+/c quest add [questId]
 ```
 {% endtab %}
 {% endtabs %}
@@ -124,10 +124,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!quest achieve
+!quest achieve [questId]
 ```
 {% endtab %}
 
@@ -135,7 +135,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c quest achieve
+/c quest achieve [questId]
 ```
 {% endtab %}
 {% endtabs %}
@@ -176,10 +176,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!quest achieveobjective
+!quest achieveobjective [questId] [index]
 ```
 {% endtab %}
 
@@ -187,7 +187,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c quest achieveobjective
+/c quest achieveobjective [questId] [index]
 ```
 {% endtab %}
 {% endtabs %}
@@ -242,10 +242,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!quest objective
+!quest objective [type] [data] [progress]
 ```
 {% endtab %}
 
@@ -253,7 +253,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c quest objective
+/c quest objective [type] [data] [progress]
 ```
 {% endtab %}
 {% endtabs %}
@@ -322,10 +322,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!quest kill
+!quest kill [creatureId] [quantity]
 ```
 {% endtab %}
 
@@ -333,7 +333,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c quest kill
+/c quest kill [creatureId] [quantity]
 ```
 {% endtab %}
 {% endtabs %}

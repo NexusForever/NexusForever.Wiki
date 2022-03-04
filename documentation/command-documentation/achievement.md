@@ -32,10 +32,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!achievement update
+!achievement update [type] [objectId] [objectIdAlt] [count]
 ```
 {% endtab %}
 
@@ -43,7 +43,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement update
+/c achievement update [type] [objectId] [objectIdAlt] [count]
 ```
 {% endtab %}
 {% endtabs %}
@@ -126,10 +126,10 @@ Invoke this command with one of the two following methods:
 
 {% tabs %}
 {% tab title="Method 1" %}
-Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!achievement grant
+!achievement grant [achievementId]
 ```
 {% endtab %}
 
@@ -137,7 +137,7 @@ Invoke the command with the following syntax in either the WildStar game chat, W
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c achievement grant
+/c achievement grant [achievementId]
 ```
 {% endtab %}
 {% endtabs %}
