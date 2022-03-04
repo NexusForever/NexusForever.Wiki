@@ -64,7 +64,7 @@ Permission.HouseTeleport = 58
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 

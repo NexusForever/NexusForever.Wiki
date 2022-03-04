@@ -20,7 +20,7 @@ Role-based access control required to access this command category.
 Permission.MovementGenerator = 67
 ```
 
-## MovementGeneratorDirectHandler
+## MovementGeneratorDirect
 
 ### Summary
 
@@ -62,7 +62,7 @@ Permission.MovementGeneratorDirect = 68
 
 This command has no parameters.
 
-## MovementGeneratorRandomHandler
+## MovementGeneratorRandom
 
 ### Summary
 

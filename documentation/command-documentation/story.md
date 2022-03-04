@@ -120,7 +120,7 @@ Permission.StoryCommunicator = 97
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -134,7 +134,7 @@ No
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -148,7 +148,7 @@ No
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -162,7 +162,7 @@ No
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -176,7 +176,7 @@ No
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -190,7 +190,7 @@ No
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -204,7 +204,7 @@ No
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 

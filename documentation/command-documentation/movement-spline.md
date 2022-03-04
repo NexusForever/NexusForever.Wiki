@@ -20,7 +20,7 @@ Role-based access control required to access this command category.
 Permission.MovementSpline = 63
 ```
 
-## MovementSplineAddHandler
+## MovementSplineAdd
 
 ### Summary
 
@@ -62,7 +62,7 @@ Permission.MovementSplineAdd = 64
 
 This command has no parameters.
 
-## MovementSplineClearHandler
+## MovementSplineClear
 
 ### Summary
 
@@ -104,7 +104,7 @@ Permission.MovementSplineClear = 65
 
 This command has no parameters.
 
-## MovementSplineLaunchHandler
+## MovementSplineLaunch
 
 ### Summary
 

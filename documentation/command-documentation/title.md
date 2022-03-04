@@ -64,7 +64,7 @@ Permission.TitleAdd = 88
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
@@ -116,7 +116,7 @@ Permission.TitleRevoke = 89
 
 #### Summary
 
-
+The parameter has no summary.
 
 #### Optional
 
