@@ -44,4 +44,5 @@
     * [server\_message](documentation/database-documentation/authentication-database/server\_message.md)
   * [Character Database](documentation/database-documentation/character-database.md)
   * [World Database](documentation/database-documentation/world-database.md)
-* [Command Documentation](documentation/command-documentation.md)
+* [Command Documentation](documentation/command-documentation/README.md)
+  * [Achievement](documentation/command-documentation/achievement.md)
