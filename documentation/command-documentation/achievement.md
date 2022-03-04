@@ -8,6 +8,18 @@ description: A collection of commands to manage player achievements.
 This page is automatically generated from the NexusForever source code!
 {% endhint %}
 
+### Summary
+
+A collection of commands to manage player achievements.
+
+#### RBAC
+
+Role-based access control required to access this command category.
+
+```
+Permission.Achievement= 15
+```
+
 ## AchievementUpdate
 
 ### Summary
@@ -16,14 +28,33 @@ Update achievement criteria for player.
 
 #### Invoke
 
+Invoke this command with one of the two following methods:
+
+{% tabs %}
+{% tab title="Method 1" %}
+Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+
 ```
 !achievement update
+```
+{% endtab %}
+
+{% tab title="Method 2" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
 /c achievement update
 ```
+{% endtab %}
+{% endtabs %}
 
 #### RBAC
 
+Role-based access control required to access this command.
+
+```
 Permission.AchievementUpdate = 17
+```
 
 ### Parameters
 
@@ -91,14 +122,33 @@ Grant achievement to player.
 
 #### Invoke
 
+Invoke this command with one of the two following methods:
+
+{% tabs %}
+{% tab title="Method 1" %}
+Invoke the command with the following syntax in either the WildStar game chat, World server console or web console.
+
 ```
-!achievement grant
-/c achievement grant
+!achievement update
 ```
+{% endtab %}
+
+{% tab title="Method 2" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
+/c achievement update
+```
+{% endtab %}
+{% endtabs %}
 
 #### RBAC
 
-Permission.AchievementUpdate = 17
+Role-based access control required to access this command.
+
+```
+Permission.AchievementGrant= 16
+```
 
 ### Parameters
 
