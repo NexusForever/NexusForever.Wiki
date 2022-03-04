@@ -143,7 +143,7 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!guild join [name]
+!guild join [type] [name]
 ```
 {% endtab %}
 
@@ -151,7 +151,7 @@ Invoke the command with the following syntax in the WildStar game chat.
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c guild join [name]
+/c guild join [type] [name]
 ```
 {% endtab %}
 {% endtabs %}
@@ -165,6 +165,20 @@ Permission.GuildJoin = 102
 ```
 
 ### Parameters
+
+<details>
+
+<summary>Type</summary>
+
+#### Summary
+
+Type of guild to join.
+
+#### Optional
+
+No
+
+</details>
 
 <details>
 

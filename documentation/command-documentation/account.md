@@ -35,8 +35,8 @@ Invoke this command with one of the two following methods:
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-!acc create [email] [password]
-!account create [email] [password]
+!acc create [email] [password] [role]
+!account create [email] [password] [role]
 ```
 {% endtab %}
 
@@ -44,8 +44,8 @@ Invoke the command with the following syntax in the WildStar game chat.
 Invoke the command with the following syntax in the WildStar game chat.
 
 ```
-/c acc create [email] [password]
-/c account create [email] [password]
+/c acc create [email] [password] [role]
+/c account create [email] [password] [role]
 ```
 {% endtab %}
 {% endtabs %}
@@ -85,6 +85,20 @@ Password for the new account
 #### Optional
 
 No
+
+</details>
+
+<details>
+
+<summary>Role</summary>
+
+#### Summary
+
+Role
+
+#### Optional
+
+Yes
 
 </details>
 
