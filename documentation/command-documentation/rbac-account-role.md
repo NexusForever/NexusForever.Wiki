@@ -66,6 +66,18 @@ Permission.RBACAccountRoleGrant = 13
 
 Role to grant
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Player        = 1,
+GameMaster    = 2,
+Administrator = 3,
+Console       = 4,
+WebSocket     = 5,
+```
+
 #### Optional
 
 No
@@ -117,6 +129,18 @@ Permission.RBACAccountRoleRevoke = 14
 #### Summary
 
 Role to revoke
+
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Player        = 1,
+GameMaster    = 2,
+Administrator = 3,
+Console       = 4,
+WebSocket     = 5,
+```
 
 #### Optional
 

@@ -66,6 +66,16 @@ Permission.BroadcastMessage = 19
 
 Tier of the message being broadcast.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+High   = 0,
+Medium = 1,
+Low    = 2,
+```
+
 #### Optional
 
 No

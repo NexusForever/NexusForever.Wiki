@@ -68,6 +68,15 @@ Permission.ReputationUpdate = 99
 
 Faction id to update reputation.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Dominion = 166,
+Exile    = 167,
+```
+
 #### Optional
 
 No

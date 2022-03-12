@@ -66,6 +66,17 @@ Permission.PathUnlock = 71
 
 Path id to unlock.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Soldier   = 0,
+Settler   = 1,
+Scientist = 2,
+Explorer  = 3,
+```
+
 #### Optional
 
 No
@@ -117,6 +128,17 @@ Permission.PathActivate = 72
 #### Summary
 
 Path id to activate.
+
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Soldier   = 0,
+Settler   = 1,
+Scientist = 2,
+Explorer  = 3,
+```
 
 #### Optional
 

@@ -106,6 +106,17 @@ Permission.MapPlayerRemove = 105
 
 Removal reason.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+GroupMembership     = 0,
+KickedFromCommunity = 1,
+CommunityDisband    = 2,
+LeftCommunity       = 3,
+```
+
 #### Optional
 
 No

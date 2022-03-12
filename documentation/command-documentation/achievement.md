@@ -66,6 +66,18 @@ Permission.AchievementUpdate = 17
 
 Achievement criteria type to update.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+KillCreatureEntry = 1,
+KillCreatureGroup = 2,
+QuestComplete     = 3,
+MapComplete       = 53,
+ItemConsume       = 80,
+```
+
 #### Optional
 
 No

@@ -66,6 +66,21 @@ Permission.DisableInfo = 31
 
 Disabled entity type.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Quest           = 0,
+Spell           = 1,
+BaseSpell       = 2,
+Item            = 3,
+World           = 4,
+Currency        = 5,
+AccountCurrency = 6,
+Achievement     = 7,
+```
+
 #### Optional
 
 No

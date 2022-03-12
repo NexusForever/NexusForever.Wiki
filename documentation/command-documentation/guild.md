@@ -66,6 +66,21 @@ Permission.GuildRegister = 101
 
 Guild type to create.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+None         = 0,
+Guild        = 1,
+Circle       = 2,
+WarParty     = 3,
+ArenaTeam2v2 = 4,
+ArenaTeam3v3 = 5,
+ArenaTeam5v5 = 6,
+Community    = 7,
+```
+
 #### Optional
 
 No
@@ -173,6 +188,21 @@ Permission.GuildJoin = 102
 #### Summary
 
 Type of guild to join.
+
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+None         = 0,
+Guild        = 1,
+Circle       = 2,
+WarParty     = 3,
+ArenaTeam2v2 = 4,
+ArenaTeam3v3 = 5,
+ArenaTeam5v5 = 6,
+Community    = 7,
+```
 
 #### Optional
 

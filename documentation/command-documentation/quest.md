@@ -276,6 +276,53 @@ Permission.QuestObjective = 80
 
 Quest objective type for objectives to update.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+KillCreature                 = 2,
+TalkTo                       = 3,
+CollectItem                  = 4,
+ActivateEntity               = 5,
+KillTargetGroups             = 8,
+ActivateEntity2              = 9,
+Unknown10                    = 10,
+SpellSuccess                 = 11,
+SucceedCSI                   = 12,
+SpellSuccess2                = 13,
+ActivateTargetGroupChecklist = 14,
+Unknown15                    = 15,
+KillTargetGroup              = 16,
+EnterZone                    = 17,
+TalkToTargetGroup            = 18,
+UNUSED19                     = 19,
+Unknown20                    = 20,
+GatheResource                = 21,
+EnterArea                    = 22,
+ActivateTargetGroup          = 23,
+CompleteQuest                = 24,
+CompleteEvent                = 25,
+Unknown27                    = 27,
+Unknown28                    = 28,
+Unknown29                    = 29,
+Unknown31                    = 31,
+VirtualCollect               = 32,
+CraftSchematic               = 33,
+SpellSuccess3                = 35,
+SpellSuccess4                = 36,
+LearnTradeskill              = 37,
+ObtainSchematic              = 38,
+Unknown39                    = 39,
+Unknown40                    = 40,
+PvPKills                     = 41,
+EarnCurrency                 = 42,
+CombatMomentum               = 44,
+KillCreature2                = 46,
+CompleteChallenge            = 47,
+BeginMatrix                  = 48,
+```
+
 #### Optional
 
 No

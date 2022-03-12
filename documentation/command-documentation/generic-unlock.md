@@ -118,6 +118,15 @@ Permission.GenericUnlockAll = 48
 
 Generic unlock type to unlock all entries from.
 
+#### Values
+
+The following numeric values can be used for this parameter.
+
+```
+Unknown = 0,
+Dye     = 1,
+```
+
 #### Optional
 
 No
