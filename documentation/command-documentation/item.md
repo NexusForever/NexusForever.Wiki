@@ -166,3 +166,59 @@ No
 
 </details>
 
+## ItemInfo
+
+### Summary
+
+Lookup item information by id.
+
+#### Invoke
+
+Invoke this command with one of the two following methods:
+
+{% tabs %}
+{% tab title="Method 1" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
+!item info [itemId]
+!item information [itemId]
+!item i [itemId]
+```
+{% endtab %}
+
+{% tab title="Method 2" %}
+Invoke the command with the following syntax in the WildStar game chat.
+
+```
+/c item info [itemId]
+/c item information [itemId]
+/c item i [itemId]
+```
+{% endtab %}
+{% endtabs %}
+
+#### RBAC
+
+Role-based access control required to access this command.
+
+```
+Permission.ItemInfo = 116
+```
+
+### Parameters
+
+<details>
+
+<summary>ItemId</summary>
+
+#### Summary
+
+Id of item to get information on
+
+#### Optional
+
+No
+
+</details>
+
