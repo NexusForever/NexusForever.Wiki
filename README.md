@@ -12,7 +12,7 @@ NexusForever is an open source project, meaning anyone can contribute, no contri
 
 #### I'm a player and want to play on a NexusForever server.
 
-If you are wanting to play on a NexusForever server checkout the [client installation guide](installation/client-connection-guide.md).
+If you are wanting to play on a NexusForever server checkout the [client installation guide](installation/client-connection-guide/).
 
 #### I'm a developer or server hoster and want to setup my own NexusForever server.
 
@@ -22,4 +22,4 @@ As NexusForever is still in heavy development no support for publicly hosted ser
 
 #### I'm a developer and want to contribute to the NexusForever project.
 
-If you are wanting to contribute to NexusForever checkout the [contributing](getting-started/contributing/) and [documentation](broken-reference) sections.
+If you are wanting to contribute to NexusForever checkout the [contributing](getting-started/contributing/) and [documentation](broken-reference/) sections.

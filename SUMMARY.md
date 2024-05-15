@@ -14,7 +14,9 @@
 
 ## Installation
 
-* [Client Connection Guide](installation/client-connection-guide.md)
+* [Client Connection Guide](installation/client-connection-guide/README.md)
+  * [NexusForever Launcher](installation/client-connection-guide/nexusforever-launcher.md)
+  * [NexusForever Client Connector](installation/client-connection-guide/nexusforever-client-connector.md)
 * [Server Install Guide (Windows)](installation/server-install-guide-windows.md)
 * [Server Install Guide (Linux)](installation/server-install-guide-linux.md)
 
