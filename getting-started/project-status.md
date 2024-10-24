@@ -12,6 +12,15 @@ Todo
 
 ## Instances
 
+* <mark style="color:green;">Complete:</mark> Instance can be completed, all content and mechanics are implemented.\
+  (0 / 46)
+* <mark style="color:yellow;">Playable:</mark> Instance can be completed, some content or mechanics are not implemented.\
+  (1 / 46)
+* <mark style="color:orange;">Partial:</mark> Instance cannot be completed, most content or mechanics are not implemented.\
+  (0 / 46)
+* <mark style="color:red;">Not Working:</mark> Instance cannot be completed.\
+  (45 / 46)
+
 {% tabs %}
 {% tab title="Adventures" %}
 ### Normal
@@ -26,7 +35,7 @@ Todo
 {% tab title="Dungeons" %}
 ### Normal
 
-| Protogames Academy           |  <mark style="color:yellow;">Partial</mark> |
+| Protogames Academy           | <mark style="color:red;">Not Working</mark> |
 | ---------------------------- | :-----------------------------------------: |
 | Stormtalon's Lair            | <mark style="color:red;">Not Working</mark> |
 | Ruins of Kel Voreth          | <mark style="color:red;">Not Working</mark> |
@@ -51,7 +60,7 @@ Todo
 | ---------------------- | :-----------------------------------------: |
 | Outpost M-13           | <mark style="color:red;">Not Working</mark> |
 | Infestation            | <mark style="color:red;">Not Working</mark> |
-| Evil from the Ether    | <mark style="color:red;">Not Working</mark> |
+| Evil from the Ether    | <mark style="color:yellow;">Playable</mark> |
 | Rage Logic             | <mark style="color:red;">Not Working</mark> |
 | Space Madness          | <mark style="color:red;">Not Working</mark> |
 | Deep Space Exploration | <mark style="color:red;">Not Working</mark> |
@@ -59,7 +68,7 @@ Todo
 
 ### Prime
 
-<table data-header-hidden data-full-width="false"><thead><tr><th>Name</th><th align="center">Status</th></tr></thead><tbody><tr><td>Fragment Zero</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Outpost M-13</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Infestation</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Evil from the Ether</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Rage Logic</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Space Madness</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Deep Space Exploration</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Deep </td><td align="center"><mark style="color:red;">Not Working</mark></td></tr></tbody></table>
+<table data-header-hidden data-full-width="false"><thead><tr><th>Name</th><th align="center">Status</th></tr></thead><tbody><tr><td>Fragment Zero</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Outpost M-13</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Infestation</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Evil from the Ether</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Rage Logic</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Space Madness</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr><tr><td>Deep Space Exploration</td><td align="center"><mark style="color:red;">Not Working</mark></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Raids" %}
