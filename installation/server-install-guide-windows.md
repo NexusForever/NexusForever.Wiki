@@ -16,6 +16,18 @@ This guide will help you setup and install the NexusForever server on Windows.
 NexusForever does not distribute a client. You will need to find your own clean WildStar 16042 client on the internet.
 {% endhint %}
 
+### Branches
+
+| Branch | Description | Recommended
+| --- | --- | --- |
+| [Master](https://github.com/NexusForever/NexusForever/tree/master) | Stable | For newer players |
+| [Game Rework](https://github.com/NexusForever/NexusForever/tree/game_rework) | Active development | For contributors |
+| [Develop](https://github.com/NexusForever/NexusForever/tree/develop) | Currently Inactive | 
+
+{% hint style="info" %}
+For more detailed information about the branches visit the GitHub repository. By clicking any of the branches names above. Default and recommend for such is Game Rework.
+{% endhint %}
+
 ### Building
 
 {% hint style="info" %}
