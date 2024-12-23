@@ -12,6 +12,10 @@ This guide will help you setup and install the NexusForever server on Windows.
 * [MySQL](https://www.mysql.com) or [MariaDB](https://mariadb.org) server
 * WildStar 16042 client
 
+{% hint style="info" %}
+NexusForever does not distribute a client. You will need to find your own clean WildStar 16042 client on the internet.
+{% endhint %}
+
 ### Building
 
 {% hint style="info" %}
