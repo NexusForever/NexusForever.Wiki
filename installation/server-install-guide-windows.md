@@ -207,4 +207,8 @@ From `role` table:
 |4 | Console |
 |5 | WebSocket |
 
+{% hint style="info" %}
+If you get any error about Permission when creating an account via the World Server, close it and start it again.
+{% endhint %}
+
 ### And we are all done.
