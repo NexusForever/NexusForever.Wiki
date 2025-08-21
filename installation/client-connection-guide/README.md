@@ -14,7 +14,7 @@ Otherwise some Google fu might be in order.
 
 ### NexusForever Launcher
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>The NexusForever Launcher.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>The NexusForever Launcher.</p></figcaption></figure>
 
 The NexusForever.Launcher is a WildStar client launcher with a simple UI that is maintained in a separate GitHub repository.
 
@@ -28,7 +28,7 @@ You can find more information on the NexusForever.Launcher at the page below:
 
 ### NexusForever Client Connector
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>The NexusForever Client Connector.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>The NexusForever Client Connector.</p></figcaption></figure>
 
 The NexusForever.ClientConnector is a simple command line WildStar client launcher that is maintained in the base NexusForever GitHub repository.
 

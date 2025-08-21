@@ -20,7 +20,7 @@ The current version of the NexusForever.Launcher requires the .NET 8.0 runtime, 
 
 Download the latest version of the client for the [GitHub release page.](https://github.com/NexusForever/NexusForever.Launcher/releases)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Launcher download from GitHub release page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Launcher download from GitHub release page.</p></figcaption></figure>
 
 ### Setup
 
@@ -31,7 +31,7 @@ You can confirm if this has been successful by going to the Game tab and seeing 
 
 If the Client Information is blank, you will need to manually select your client installation directory in the Game tab by clicking on the 'Browse Client...' button.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Launcher Game tab and Browse Client button.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Launcher Game tab and Browse Client button.</p></figcaption></figure>
 
 Browse to the location of your WildStar client (this is the root folder containing the 'Patch' and 'Client' folders) and click 'Select Folder'.
 
