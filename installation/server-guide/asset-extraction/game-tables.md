@@ -35,7 +35,7 @@ For details on additional optional parameters, run the map generator without any
 
 {% tabs %}
 {% tab title="Windows" %}
-Run the following commands in the Command Promp to start the extraction of the game table and localisation files using the WildStar client.
+Run the following commands in the Command Prompt to start the extraction of the game table and localisation files using the WildStar client.
 
 {% hint style="warning" %}
 Substitute the path `C:\Program Files (x86)\NCSOFT\WildStar\Patch` with the location of your WildStar client installation.
@@ -69,7 +69,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
-```
+```bash
 cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net9.0
 sudo ./NexusForever.MapGenerator --extract --patchPath ~/NCSOFT/WildStar/Patch
 ```
@@ -100,6 +100,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\tbl\
 xcopy tbl\*.* C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\tbl\
 xcopy tbl\*.* C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net9.0\tbl\
 ```
@@ -114,7 +115,8 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
-```
+```bash
+cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net9.0/tbl/
 sudo mkdir /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/tbl/
 sudo cp tbl/*.* /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/tbl/
 sudo mkdir /opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net9.0/tbl/

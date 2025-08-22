@@ -59,7 +59,7 @@ The `/opt/nexusforever-database` folder can be substituted for another path alth
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
-```
+```bash
 sudo mkdir /opt/nexusforever-database
 cd /opt/nexusforever-database
 sudo git clone https://github.com/NexusForever/NexusForever.WorldDatabase.git .

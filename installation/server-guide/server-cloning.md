@@ -54,7 +54,7 @@ The `/opt/nexusforever` folder can be substituted for another path although the 
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
-```
+```bash
 sudo mkdir /opt/nexusforever
 cd /opt/nexusforever
 sudo git clone https://github.com/NexusForever/NexusForever.git .

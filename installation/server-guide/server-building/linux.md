@@ -23,7 +23,7 @@ Any warnings generated during the build process can be safely ignored.
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
-```
+```bash
 cd /opt/nexusforever/Source
 sudo dotnet build
 ```
