@@ -15,7 +15,7 @@ Base maps are generated files used by NexusForever that contain various bits of 
 We can use the map generator that is part of the main NexusForever repository to generate the base maps from the client.
 
 {% hint style="warning" %}
-Depending on your PC hardware base map generation may take an extended period of time to complete.
+Depending on your PC hardware, base map generation may take an extended period of time to complete.
 {% endhint %}
 
 {% hint style="info" %}
@@ -75,20 +75,20 @@ Once the process completes you'll find a folder called map in the same folder as
 
 ## Copy
 
-The generated `*.nfmap` files are used by the world server and need to be copied into the build directoy.
+The generated `*.nfmap` files are used by the world server and need to be copied into the build directory.
 
 {% tabs %}
-{% tab title="WIndows" %}
+{% tab title="Windows" %}
 Run the following command in the Command Prompt to copy the generated `*.nfmap` files from the map generator output directory to the world server build directory.
 
 {% hint style="warning" %}
-Substitute the `Debug` folder in the path with `Release` if you build NexusForever in release mode.
+Substitute the `Debug` folder in the path with `Release` if you built NexusForever in release mode.
 {% endhint %}
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\map\
-xcopy tbl\*.nfmap C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\map\
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\
+xcopy map\*.nfmap C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\map\
 ```
 {% endcode %}
 {% endtab %}

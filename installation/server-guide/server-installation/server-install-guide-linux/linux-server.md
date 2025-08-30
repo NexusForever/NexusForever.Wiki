@@ -6,7 +6,7 @@ description: >-
 
 # Linux Server
 
-## Intoduction
+## Introduction
 
 This page provides additional information and steps necessary for setting up a NexusForever server on a Linux server.\
 Please first complete the [Linux](./) guide before proceeding with this page.

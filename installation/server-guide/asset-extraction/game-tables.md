@@ -91,7 +91,7 @@ This guide copies the files into the build directories of both servers. Alternat
 See the configuration section in the [Server Installation](../server-installation/) guides for more information on how to do this.
 
 {% tabs %}
-{% tab title="WIndows" %}
+{% tab title="Windows" %}
 Run the following command in the Command Prompt to copy the generated `*.tbl` and `*.bin` files from the map generator output directory to the chat and world server build directories.
 
 {% hint style="warning" %}
@@ -100,7 +100,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\tbl\
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\
 xcopy tbl\*.* C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\tbl\
 xcopy tbl\*.* C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net9.0\tbl\
 ```

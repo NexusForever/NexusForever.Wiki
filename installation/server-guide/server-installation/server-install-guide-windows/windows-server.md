@@ -6,7 +6,7 @@ description: >-
 
 # Windows Server
 
-## Intoduction
+## Introduction
 
 This page provides additional information and steps necessary for setting up a NexusForever server on Windows Server.\
 Please first complete the [Windows](./) guide before proceeding with this page.
