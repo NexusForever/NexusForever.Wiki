@@ -1,7 +1,7 @@
 ---
 description: >-
   Provides information on how to connect the WildStar client to a NexusForever
-  server using the NexusForver.Launcher.
+  server using the NexusForever.Launcher.
 ---
 
 # NexusForever Launcher

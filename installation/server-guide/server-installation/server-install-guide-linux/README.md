@@ -22,7 +22,7 @@ For other database providers not officially supported by NexusForever refer to t
 * Install MariaDB via package manager.
 
 {% hint style="warning" %}
-This guide asummes you are using a Linux distribution that uses the APT package manager.\
+This guide assumes you are using a Linux distribution that uses the APT package manager.\
 If not, consult your distributions package manager for installation instructions.
 {% endhint %}
 
@@ -79,7 +79,7 @@ For other message brokers not offically supported by NexusForever refer to the R
 * Install RabbitMQ via package manager.
 
 {% hint style="warning" %}
-This guide asummes you are using a Linux distribution that uses the APT package manager.\
+This guide assumes you are using a Linux distribution that uses the APT package manager.\
 If not, consult your distributions package manager for installation instructions.
 {% endhint %}
 

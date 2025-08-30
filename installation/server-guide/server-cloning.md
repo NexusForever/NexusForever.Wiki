@@ -8,7 +8,7 @@ description: This page provides information on how to clone the NexusForever sou
 
 First we need to clone the NexusForever source code from the [GitHub](https://github.com/NexusForever/NexusForever) repo.
 
-NexusForever clone guides are provdied for both Windows and Linux.
+NexusForever clone guides are provided for both Windows and Linux.
 
 ## Clone
 
