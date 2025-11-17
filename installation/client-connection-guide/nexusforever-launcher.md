@@ -14,7 +14,7 @@ Otherwise some Google fu might be in order.
 
 ### Prerequisites
 
-The current version of the NexusForever.Launcher requires the .NET 8.0 runtime, this can be found on the Microsoft [website](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+The current version of the NexusForever.Launcher requires the .NET 10.0 runtime, this can be found on the Microsoft [website](https://dotnet.microsoft.com/en-us/download/dotnet/10.0).
 
 ### Download
 
@@ -40,4 +40,3 @@ If done successfully, you will now see information on your WildStar client displ
 ### Adding A Server
 
 ### Launching A Server
-

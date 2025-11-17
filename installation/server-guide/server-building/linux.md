@@ -8,7 +8,7 @@ description: >-
 
 ## Prerequisites
 
-* Install [.NET 9.0](https://learn.microsoft.com/en-us/dotnet/core/install/linux) SDK.
+* Install [.NET 10.0](https://learn.microsoft.com/en-us/dotnet/core/install/linux) SDK.
 
 ## Build
 
@@ -25,7 +25,7 @@ Any warnings generated during the build process can be safely ignored.
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
 cd /opt/nexusforever/Source
-sudo dotnet build
+sudo dotnet build NexusForever.slnx
 ```
 {% endcode %}
 

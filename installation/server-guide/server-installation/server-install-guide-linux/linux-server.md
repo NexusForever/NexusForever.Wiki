@@ -19,7 +19,7 @@ This guide will continue to use debug and the default build directories for cons
 
 ## Systemd
 
-NexusForever supports Systemd Services, it the preferred method for running NexusForever on a Linux server.
+NexusForever supports Systemd Services, it is the preferred method for running NexusForever on a Linux server.
 
 ### Unit Files
 
@@ -55,8 +55,8 @@ Description=NexusForever.AuthServer
 
 [Service]
 Type=simple
-ExecStart=/opt/nexusforever/Source/NexusForever.AuthServer/bin/Debug/net9.0/NexusForever.AuthServer
-WorkingDirectory=/opt/nexusforever/Source/NexusForever.AuthServer/bin/Debug/net9.0
+ExecStart=/opt/nexusforever/Source/NexusForever.AuthServer/bin/Debug/net10.0/NexusForever.AuthServer
+WorkingDirectory=/opt/nexusforever/Source/NexusForever.AuthServer/bin/Debug/net10.0
 
 [Install]
 WantedBy=multi-user.target
@@ -91,8 +91,8 @@ Description=NexusForever.StsServer
 
 [Service]
 Type=simple
-ExecStart=/opt/nexusforever/Source/NexusForever.StsServer/bin/Debug/net9.0/NexusForever.StsServer
-WorkingDirectory=/opt/nexusforever/Source/NexusForever.StsServer/bin/Debug/net9.0
+ExecStart=/opt/nexusforever/Source/NexusForever.StsServer/bin/Debug/net10.0/NexusForever.StsServer
+WorkingDirectory=/opt/nexusforever/Source/NexusForever.StsServer/bin/Debug/net10.0
 
 [Install]
 WantedBy=multi-user.target
@@ -127,8 +127,8 @@ Description=NexusForever.WorldServer
 
 [Service]
 Type=simple
-ExecStart=/opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/NexusForever.WorldServer
-WorkingDirectory=/opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0
+ExecStart=/opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/NexusForever.WorldServer
+WorkingDirectory=/opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0
 
 [Install]
 WantedBy=multi-user.target
@@ -163,8 +163,8 @@ Description=NexusForever.Server.GroupServer
 
 [Service]
 Type=simple
-ExecStart=/opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net9.0/NexusForever.Server.ChatServer
-WorkingDirectory=/opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net9.0
+ExecStart=/opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net10.0/NexusForever.Server.ChatServer
+WorkingDirectory=/opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net10.0
 
 [Install]
 WantedBy=multi-user.target
@@ -199,8 +199,8 @@ Description=NexusForever.Server.GroupServer
 
 [Service]
 Type=simple
-ExecStart=/opt/nexusforever/Source/NexusForever.Server.GroupServer/bin/Debug/net9.0/NexusForever.Server.GroupServer
-WorkingDirectory=/opt/nexusforever/Source/NexusForever.Server.GroupServer/bin/Debug/net9.0
+ExecStart=/opt/nexusforever/Source/NexusForever.Server.GroupServer/bin/Debug/net10.0/NexusForever.Server.GroupServer
+WorkingDirectory=/opt/nexusforever/Source/NexusForever.Server.GroupServer/bin/Debug/net10.0
 
 [Install]
 WantedBy=multi-user.target
@@ -235,8 +235,8 @@ Description=NexusForever.API.Character
 
 [Service]
 Type=simple
-ExecStart=/opt/nexusforever/Source/NexusForever.API.Character/bin/Debug/net9.0/NexusForever.API.Character
-WorkingDirectory=/opt/nexusforever/Source/NexusForever.API.Character/bin/Debug/net9.0
+ExecStart=/opt/nexusforever/Source/NexusForever.API.Character/bin/Debug/net10.0/NexusForever.API.Character
+WorkingDirectory=/opt/nexusforever/Source/NexusForever.API.Character/bin/Debug/net10.0
 
 [Install]
 WantedBy=multi-user.target

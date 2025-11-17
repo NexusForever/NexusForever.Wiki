@@ -45,9 +45,9 @@ Substitute the path `C:\Program Files (x86)\NCSOFT\WildStar\Patch` with the loca
 Substitute the `Debug` folder in the path with `Release` if you built NexusForever in release mode.
 {% endhint %}
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```
-cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net10.0
 NexusForever.MapGenerator --extract --patchPath "C:\Program Files (x86)\NCSOFT\WildStar\Patch"
 ```
 {% endcode %}
@@ -70,7 +70,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net9.0
+cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net10.0
 sudo ./NexusForever.MapGenerator --extract --patchPath ~/NCSOFT/WildStar/Patch
 ```
 {% endcode %}
@@ -100,9 +100,9 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\
-xcopy tbl\*.* C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\tbl\
-xcopy tbl\*.* C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net9.0\tbl\
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net10.0\
+xcopy tbl\*.* C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net10.0\tbl\
+xcopy tbl\*.* C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net10.0\tbl\
 ```
 {% endcode %}
 {% endtab %}
@@ -116,13 +116,12 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net9.0/tbl/
-sudo mkdir /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/tbl/
-sudo cp tbl/*.* /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/tbl/
-sudo mkdir /opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net9.0/tbl/
-sudo cp tbl/*.* /opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net9.0/tbl/
+cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net10.0/tbl/
+sudo mkdir /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/tbl/
+sudo cp tbl/*.* /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/tbl/
+sudo mkdir /opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net10.0/tbl/
+sudo cp tbl/*.* /opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net10.0/tbl/
 ```
 {% endcode %}
 {% endtab %}
 {% endtabs %}
-

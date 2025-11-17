@@ -29,12 +29,12 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-sc create NexusForever.AuthServer binPath="C:\nexusforever\Source\NexusForever.AuthServer\bin\Debug\net9.0\NexusForever.AuthServer.exe"
-sc create NexusForever.StsServer binPath="C:\nexusforever\Source\NexusForever.StsServer\bin\Debug\net9.0\NexusForever.StsServer.exe"
-sc create NexusForever.WorldServer binPath="C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\NexusForever.WorldServer.exe"
-sc create NexusForever.ChatServer binPath="C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net9.0\NexusForever.Server.ChatServer.exe"
-sc create NexusForever.GroupServer binPath="C:\nexusforever\Source\NexusForever.Server.GroupServer\bin\Debug\net9.0\NexusForever.Server.GroupServer.exe"
-sc create NexusForever.API.Character binPath="C:\nexusforever\Source\NexusForever.API.Character\bin\Debug\net9.0\NexusForever.API.Character.exe"
+sc create NexusForever.AuthServer binPath="C:\nexusforever\Source\NexusForever.AuthServer\bin\Debug\net10.0\NexusForever.AuthServer.exe"
+sc create NexusForever.StsServer binPath="C:\nexusforever\Source\NexusForever.StsServer\bin\Debug\net10.0\NexusForever.StsServer.exe"
+sc create NexusForever.WorldServer binPath="C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net10.0\NexusForever.WorldServer.exe"
+sc create NexusForever.ChatServer binPath="C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net10.0\NexusForever.Server.ChatServer.exe"
+sc create NexusForever.GroupServer binPath="C:\nexusforever\Source\NexusForever.Server.GroupServer\bin\Debug\net10.0\NexusForever.Server.GroupServer.exe"
+sc create NexusForever.API.Character binPath="C:\nexusforever\Source\NexusForever.API.Character\bin\Debug\net10.0\NexusForever.API.Character.exe"
 ```
 {% endcode %}
 

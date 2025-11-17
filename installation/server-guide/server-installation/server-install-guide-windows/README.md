@@ -138,17 +138,17 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-cd C:\nexusforever\Source\NexusForever.AuthServer\bin\Debug\net9.0\
+cd C:\nexusforever\Source\NexusForever.AuthServer\bin\Debug\net10.0\
 copy AuthServer.example.json AuthServer.json
-cd C:\nexusforever\Source\NexusForever.StsServer\bin\Debug\net9.0\
+cd C:\nexusforever\Source\NexusForever.StsServer\bin\Debug\net10.0\
 copy StsServer.example.json StsServer.json
-cd C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\
+cd C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net10.0\
 copy WorldServer.example.json WorldServer.json
-cd C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net9.0\
+cd C:\nexusforever\Source\NexusForever.Server.ChatServer\bin\Debug\net10.0\
 copy ChatServer.example.json ChatServer.json
-cd C:\nexusforever\Source\NexusForever.Server.GroupServer\bin\Debug\net9.0\
+cd C:\nexusforever\Source\NexusForever.Server.GroupServer\bin\Debug\net10.0\
 copy GroupServer.example.json GroupServer.json
-cd C:\nexusforever\Source\NexusForever.API.Character\bin\Debug\net9.0\
+cd C:\nexusforever\Source\NexusForever.API.Character\bin\Debug\net10.0\
 copy CharacterAPI.example.json CharacterAPI.json
 ```
 {% endcode %}

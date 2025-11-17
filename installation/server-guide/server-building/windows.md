@@ -14,7 +14,7 @@ After cloning the source code, build the solution using Visual Studio for local 
 {% tab title="Command Line" %}
 ### Prerequisites
 
-* Install [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
+* Install [.NET 10.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0).
 
 ### Build
 
@@ -31,7 +31,7 @@ Any warnings generated during the build process can be safely ignored.
 {% code overflow="wrap" lineNumbers="true" %}
 ```
 cd C:/nexusforever/Source
-dotnet build
+dotnet build NexusForever.slnx
 ```
 {% endcode %}
 
@@ -43,14 +43,14 @@ In the Command Prompt you should see build succeeded.
 {% tab title="Visual Studio" %}
 ### Prerequisites
 
-* Install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/).\
+* Install [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/).\
   Ensure you install the "ASP.NET and web development" and ".NET desktop development" when installing Visual Studio.
 
 <figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Build
 
-* Open `C:\nexusforever\Source\NexusForever.sln` in Visual Studio.
+* Open `C:\nexusforever\Source\NexusForever.slnx` in Visual Studio.
 * In the Solution Explorer, right click on the NexusForever solution and select Build Solution.
 
 {% hint style="warning" %}

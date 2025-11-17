@@ -37,7 +37,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net10.0
 NexusForever.MapGenerator --generate --patchPath "C:\Program Files (x86)\NCSOFT\WildStar\Patch"
 ```
 {% endcode %}
@@ -60,7 +60,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net9.0
+cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net10.0
 sudo ./NexusForever.MapGenerator --generate --patchPath ~/NCSOFT/WildStar/Patch
 ```
 {% endcode %}
@@ -87,8 +87,8 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
-cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net9.0\
-xcopy map\*.nfmap C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net9.0\map\
+cd C:\nexusforever\Source\NexusForever.MapGenerator\bin\Debug\net10.0\
+xcopy map\*.nfmap C:\nexusforever\Source\NexusForever.WorldServer\bin\Debug\net10.0\map\
 ```
 {% endcode %}
 {% endtab %}
@@ -102,9 +102,9 @@ Substitute the `Debug` folder in the path with `Release` if you build NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net9.0/map/
-sudo mkdir /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/map/
-sudo cp map/*.nfmap /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net9.0/map/
+cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net10.0/map/
+sudo mkdir /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/map/
+sudo cp map/*.nfmap /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/map/
 ```
 {% endcode %}
 {% endtab %}
