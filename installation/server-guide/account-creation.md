@@ -24,7 +24,7 @@ You can enter the account creation command through the world server command cons
 
 An alternative to enter the account creation command is through the world server web console.
 
-By default you can access the web console through [http://localhost:5000/Console.html](http://localhost:5000/Console.html).
+By default you can access the web console through [http://localhost:5000/console.html](http://localhost:5000/console.html).
 
 {% hint style="warning" %}
 If the world server is running on a remote machine substitute `localhost` with the IP or hostname of the server.
