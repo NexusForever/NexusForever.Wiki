@@ -17,6 +17,10 @@ If not a quick search online should yield results.
 
 * WildStar 16042 client.
 
+{% hint style="warning" %}
+The game client requires the english language
+{% endhint %}
+
 ## Introduction
 
 After building NexusForever you need to extract and generate specific files from the WildStar client which are used by NexusForever.
