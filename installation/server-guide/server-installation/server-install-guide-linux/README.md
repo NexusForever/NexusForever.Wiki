@@ -153,7 +153,7 @@ By default the `Debug` configuration will be selected, you can also choose `Rele
 ```bash
 sudo dotnet tool install dotnet-ef --tool-path /usr/bin
 
-cd /opt/nexusforever/Source/NexusForever.Server.WorldServer
+cd /opt/nexusforever/Source/NexusForever.WorldServer
 sudo dotnet-ef database update --context AuthContext
 sudo dotnet-ef database update --context CharacterContext
 sudo dotnet-ef database update --context WorldContext

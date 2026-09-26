@@ -64,6 +64,12 @@ Run the following commands in your terminal to start the extraction of the game 
 Substitute the path `~/NCSOFT/WildStar/Patch` with the location of your WildStar client installation.
 {% endhint %}
 
+{% hint style="info" %}
+This guide uses `/opt/nexusforever`, which was created with `sudo` and is owned by root, so the commands here need `sudo`. Running them with `sudo` makes every generated file and folder (`tbl/`, `map/`, build output) owned by root, and later steps run as your normal user then fail with permission errors.
+
+If you cloned the source into your home directory instead (for example `~/nexusforever`), none of the build, extract or copy steps need `sudo`: run them as your normal user and drop `sudo` from the commands. If you already use `/opt/nexusforever`, you can take ownership once with `sudo chown -R $USER: /opt/nexusforever` and then also run the steps without `sudo`.
+{% endhint %}
+
 {% hint style="warning" %}
 Substitute the `Debug` folder in the path with `Release` if you built NexusForever in release mode.
 {% endhint %}
@@ -116,7 +122,7 @@ Substitute the `Debug` folder in the path with `Release` if you built NexusForev
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```bash
-cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net10.0/tbl/
+cd /opt/nexusforever/Source/NexusForever.MapGenerator/bin/Debug/net10.0
 sudo mkdir /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/tbl/
 sudo cp tbl/*.* /opt/nexusforever/Source/NexusForever.WorldServer/bin/Debug/net10.0/tbl/
 sudo mkdir /opt/nexusforever/Source/NexusForever.Server.ChatServer/bin/Debug/net10.0/tbl/

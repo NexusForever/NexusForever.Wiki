@@ -15,6 +15,16 @@ NexusForever database clone guides are provided for both Windows and Linux.
 The NexusForever database schema is provided through Entity Framework migrations within the main NexusForever repository.\
 The actual world data is stored in a separate repository, this additional data is optional but highly recommended as Nexus will be empty without it.
 
+{% hint style="warning" %}
+The world database must match the schema of the server branch you built. At the time of writing, the world database is built against the `expedition-evil-from-the-ether` branch, not the default `game_rework` branch. On `game_rework` the import fails with errors about missing tables and columns (`entity_script`, `entity_property`, `creature_info_property`, `entity.Mode`), because the `EntityProperty`, `CreatureInfo` and `EntityMode` migrations only exist on `expedition-evil-from-the-ether`.
+
+To use the world database, check out that branch before building and running the migrations:
+
+```bash
+git checkout expedition-evil-from-the-ether
+```
+{% endhint %}
+
 ## Clone
 
 {% tabs %}
