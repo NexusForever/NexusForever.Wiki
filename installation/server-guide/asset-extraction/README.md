@@ -18,7 +18,7 @@ If not a quick search online should yield results.
 * WildStar 16042 client.
 
 {% hint style="warning" %}
-The game client requires the english language
+The English language pack must be installed in the WildStar client before extracting assets for use with NexusForever, regardless of the language you intend to play in.
 {% endhint %}
 
 ## Introduction
